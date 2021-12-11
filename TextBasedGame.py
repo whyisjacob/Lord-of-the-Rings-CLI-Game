@@ -9,9 +9,9 @@ import time
 current_location = {}
 
 # to expedite gameplay, set these values to 0
-sleep_time = 0  # 3
-short_sleep_time = 0 # 1
-long_sleep_time = 0 # 6
+sleep_time = 3  # 3
+short_sleep_time = 1 # 1 
+long_sleep_time = 6 # 6
 
 def arrive_new_location(location):
     location_data = Locations.location_data()                
@@ -156,6 +156,7 @@ if __name__ == "__main__":
                 print(f'Your items are')
                 for item in items_held:
                     print(item)
+                time.sleep(sleep_time)
                 break
             else:
                 print(f'Where are you going??? {new_location_choice} is not a valid choice {loc_dir_validations}')

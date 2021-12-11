@@ -64,7 +64,7 @@ def location_data():
         },
         "Path on the Left": {
             "Location":"Lorien",
-            "Description": "Welcome to Lorien, the wooded areas where the Lady Galadrial lives along with her Elven Kin. She has been watching over you as you progress on your journey, though she is wondering where Gandalf is.",
+            "Description": "Welcome to Lorien, the wooded areas where Lady Galadriel lives along with her Elven Kin. She has been watching over you as you progress on your journey, though she is wondering where Gandalf is.",
             "Items_required": [],
             "Items": [],
             "Directions": {
@@ -108,7 +108,7 @@ def location_data():
         },
         "Gondor": {
             "Location":"Gondor",
-            "Description": "The kingdom of men. Aragorn, son of Arathorn, and King of Gondor greets you as you progress on your quest. He is supportive and wishes your success. He decides to join you as you head towards the Mount Doom in Mordor.",
+            "Description": "The kingdom of men. Aragorn, son of Arathorn, and King of Gondor greets you as you progress on your quest. He is supportive and wishes for your success. He decides to join you as you head towards the Mount Doom in Mordor.",
             "Items_required": [],
             "Items": [
                 "Aragorn"
@@ -265,7 +265,7 @@ def location_data():
             },
             "Win":False,
             "Villian":True,
-            "Lose_Description": "Because you took the ring, you ended Up living a very short life. In your idiocy of putting the ring on your finger, Sarun - who was literally in the same reagon as you - quickly found you, killed you, took the ring, and destroyed Middle Earth. All hope has faded and all Hobbits are no more."
+            "Lose_Description": "Because you took the ring, you ended Up living a very short life. In your idiocy of putting the ring on your finger, Sarun - who was literally in the same reagion as you - quickly found you, killed you, took the ring, and destroyed Middle Earth. All hope has faded and all Hobbits are no more."
         }
     }
 
